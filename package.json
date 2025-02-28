@@ -6,14 +6,23 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bservan/react-native-intent-launcher.git"
-  },
-  "author": "poberwong",
+  "files": [
+    "android",
+    "index.js",
+    "IntentConstants.js",
+    "!Example",
+    "!**/__tests__",
+    "!android/build"
+  ],
+  "repository": "https://github.com/bservan/react-native-intent-launcher.git",
+  "author": "bservan",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bservan/react-native-intent-launcher/issues"
   },
-  "homepage": "https://github.com/bservan/react-native-intent-launcher#readme"
+  "homepage": "https://github.com/bservan/react-native-intent-launcher#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
