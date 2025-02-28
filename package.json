@@ -9,7 +9,7 @@
   "files": [
     "android",
     "index.js",
-    "IntentConstants.js",
+    "IntentConstant.js",
     "!Example",
     "!**/__tests__",
     "!android/build"
